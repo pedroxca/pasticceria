@@ -48,7 +48,7 @@ function NavBar() {
 
 
   return (
-    <AppBar position='sticky'>
+    <AppBar position='sticky' color='primary' >
 
       <Container maxWidth="xl"
       >
@@ -75,7 +75,7 @@ function NavBar() {
                 textDecoration: 'none',
               }}
             >
-              Pasticceria
+              Coffee Shops Tia Rosa
             </Typography>
           </Button>
 
@@ -144,7 +144,7 @@ function NavBar() {
                 textDecoration: 'none',
               }}
             >
-              Pasticceria
+              Coffee Shops Tia Ros
             </Typography>
           </Button>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', flexDirection: 'row-reverse', } }}>

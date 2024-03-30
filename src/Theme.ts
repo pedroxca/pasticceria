@@ -1,5 +1,7 @@
 import { createTheme } from "@mui/material";
 
+
+
 export const theme = createTheme({
   // palette: {
   //   mode: 'dark',
@@ -18,6 +20,16 @@ export const theme = createTheme({
     },
     text: {
       primary: '#3c2f2f',
+    },
+  },
+  components: {
+    MuiMenu: {
+      styleOverrides: {
+        paper: {
+          background: '#854442 !important',
+          color: '#3c2f2f !important',
+        },
+      },
     },
   },
   typography: {
