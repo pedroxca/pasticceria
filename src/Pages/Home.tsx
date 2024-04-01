@@ -1,18 +1,23 @@
-import { Container, CssBaseline, Slide } from "@mui/material";
+import { Container, CssBaseline, Grow } from "@mui/material";
 import pao1 from '../assets/bread.jpg';
 import BakeryInside from '../assets/BakeryInside.jpg';
 import Facade from '../assets/Facade.jpg';
 import { Text } from "../components/Text";
+import { Title } from "../components/Title";
 function Home() {
+  console.log(pao1)
   return (
     <>
       <CssBaseline enableColorScheme />
-      <Slide in timeout={1500}>
+      <Grow style={{ transformOrigin: '0 0 0' }} in timeout={1500}>
         <Container maxWidth="lg" sx={{ mt: '1vw' }}>
+          <Title>A Padaria</Title>
           <Container sx={{ display: { md: 'flex', flexDirection: 'row', }, verticalAlign: 'center' }} >
             <Text>
               Bem-vindo à nossa padaria, onde os sabores do Brasil e da Itália se encontram em um ambiente moderno e acolhedor! Na nossa padaria, não apenas oferecemos uma ampla variedade de produtos frescos e deliciosos, mas também proporcionamos um tratamento excepcional aos nossos clientes.
             </Text>
+
+
             <img
               srcSet={`${pao1}`}
               src={`${pao1}`}
@@ -43,7 +48,7 @@ function Home() {
             </Text>
             <br />
           </Container>
-          <Container sx={{ display: { md: 'flex', flexDirection: 'row', justifyContent: 'space-evenly' }, verticalAlign: 'center' , mb:'3rem'}}>
+          <Container sx={{ display: { md: 'flex', flexDirection: 'row', justifyContent: 'space-evenly' }, verticalAlign: 'center', mb: '3rem' }}>
             <img
               srcSet={`${BakeryInside}`}
               src={`${BakeryInside}`}
@@ -60,7 +65,7 @@ function Home() {
             />
           </Container>
         </Container>
-      </Slide>
+      </Grow >
     </>
   )
 }
