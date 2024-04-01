@@ -1,7 +1,7 @@
 {
   "name": "coffee-shops-tia-rosa-aa",
   "private": true,
-  "version": "0.0.1-rc-1",
+  "version": "0.0.1-rc-2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,8 +12,6 @@
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.0",
-    "@fontsource/inter": "^5.0.17",
-    "@fontsource/roboto": "^5.0.12",
     "@mui/icons-material": "^5.15.14",
     "@mui/material": "^5.15.14",
     "framer-motion": "^11.0.20",
