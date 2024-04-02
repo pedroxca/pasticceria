@@ -1,8 +1,5 @@
 # Padaria Coffee Shops Tia Rosa
 
-Link de homologação/staging: https://pasticceria-git-hml-pedroxcas-projects.vercel.app/
-
-
 # Sobre este projeto
 #### Este projeto usa React com TypeScript para criar um site para uma padaria. Os clientes podem encontrar informações sobre a padaria, como horário de funcionamento, localização, produtos disponíveis e também uma seção de "Trabalhe Conosco" para possíveis candidatos interessados em oportunidades de emprego. O objetivo é proporcionar uma presença online abrangente para a padaria, permitindo que os clientes conheçam melhor a empresa, visualizem os produtos oferecidos e até mesmo considerem oportunidades de emprego disponíveis.
 
@@ -25,8 +22,9 @@ Abra o terminal e navegue até o diretório onde deseja criar o projeto.
     Execute o seguinte comando para criar um novo projeto Vite React com TypeScript:
     
 ```bash
-npm init @vitejs/app coffee-shop-tia-rosa --template react-ts
+npm create vite@latest
 ```
+Escolha o template de React TS
 ### Passo 3: Navegando para o Diretório do Projeto
 
 Após a conclusão da instalação, navegue para o diretório do projeto:
@@ -47,12 +45,19 @@ npm install -D @types/react @types/react-dom @typescript-eslint/eslint-plugin @t
 ### Passo 5: Iniciando o Servidor de Desenvolvimento
 
 Agora, você pode iniciar o servidor de desenvolvimento executando o seguinte comando:
+```bash
+npm run dev
+```
 
 ### Passo 6: Visualizando o Projeto
 
 Abra seu navegador e visite http://localhost:5173 para visualizar seu projeto Vite em execução.
+De início ele deve se parecer com isso:
 
+![image](https://github.com/pedroxca/pasticceria/assets/59288641/065f3aca-065c-4c2d-8430-900ade96cdaa)
 
+### Passo 7: Faça as alterações necessárias
+Faça as alterações necessáras de routing, estilização e lógica de front-end do seu webApp
 
 ## Criação de conta na Vercel
 1. Acesse o site da Vercel.
@@ -69,8 +74,12 @@ Abra seu navegador e visite http://localhost:5173 para visualizar seu projeto Vi
 
 ## Deploy
 1. Importe o Projeto na plataforma da Vercel
-2. Selecione o template, neste caso Vite/React
-3. Caso queira, pode usar um domínio personalizado. Para contas de hobby a vercel garante um *.vercel.app
-4. Quando subir uma alteração no seu repositório, o deploy na vercel irá acompanhar
+2. ![image](https://github.com/pedroxca/pasticceria/assets/59288641/39abe318-bdf3-44c1-acc6-1f1672d91709)
+3. Selecione o template, neste caso Vite/React
+4. ![image](https://github.com/pedroxca/pasticceria/assets/59288641/9558cb2a-7fc6-437a-b430-27fb687fd925)
+5. Caso queira, pode usar um domínio personalizado. Para contas de hobby a vercel garante um *.vercel.app
+6. Quando subir uma alteração no seu repositório, o deploy na vercel irá acompanhar
+7. ![image](https://github.com/pedroxca/pasticceria/assets/59288641/dc5d69e5-017b-46ab-8297-9dee7af7e574)
+
 
 ****
