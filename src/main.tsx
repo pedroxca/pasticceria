@@ -5,10 +5,11 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import App from './App';
 import About from './Pages/About';
 import Home from './Pages/Home';
-import Products from './Pages/Products';
+import Products from './Pages/Products/Products';
 import WorkWithUs from './Pages/WorkWithUs';
 import { theme } from './Theme';
 import './index.css';
+import { ErrorPage } from './Pages/ErrorPage';
 
 const router = createBrowserRouter([
   {
@@ -31,7 +32,8 @@ const router = createBrowserRouter([
         path: '/work-with-us',
         element: <WorkWithUs />,
       },
-    ]
+    ],
+    errorElement: <ErrorPage/>
   }
 ]);
 ReactDOM.createRoot(document.getElementById('root')!).render(

@@ -11,29 +11,13 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import * as React from 'react';
 import { NavLink as RouterLink } from 'react-router-dom';
+import { pages } from './Pages';
 
 
 
 function NavBar() {
 
-  interface Page {
-    display: string;
-    path: string;
-  }
 
-  const pages: Page[] = [
-    {
-      display: 'Trabalhe Conosco',
-      path: 'work-with-us'
-    },
-    {
-      display: 'Quem Somos',
-      path: 'about'
-    },
-    {
-      display: 'Nossos Produtos',
-      path: 'products'
-    }];
 
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
 
