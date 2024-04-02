@@ -16,8 +16,6 @@ function Home() {
             <Text>
               Bem-vindo à nossa padaria, onde os sabores do Brasil e da Itália se encontram em um ambiente moderno e acolhedor! Na nossa padaria, não apenas oferecemos uma ampla variedade de produtos frescos e deliciosos, mas também proporcionamos um tratamento excepcional aos nossos clientes.
             </Text>
-
-
             <img
               srcSet={`${pao1}`}
               src={`${pao1}`}

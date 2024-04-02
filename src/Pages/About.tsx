@@ -15,7 +15,7 @@ function About() {
         </Text>
         <br />
         <img
-          src="/src/assets/Tia Rosa.png"
+          src="/src/assets/Tia Rosa.jpg"
           style={{ maxHeight: '50vh' }}
           alt="Tia Rosa" />
       </Container>
