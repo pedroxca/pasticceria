@@ -13,6 +13,7 @@ Link de homologação/staging: https://pasticceria-git-hml-pedroxcas-projects.ve
 - Vercel
 - IA de imagem generativa
 
+## Criação do projeto
 
 ### Passo 1: Instalação do Node.js
 
@@ -51,3 +52,25 @@ Agora, você pode iniciar o servidor de desenvolvimento executando o seguinte co
 
 Abra seu navegador e visite http://localhost:5173 para visualizar seu projeto Vite em execução.
 
+
+
+## Criação de conta na Vercel
+1. Acesse o site da Vercel.
+2. Clique em "Sign Up".
+3. Preencha o formulário com seu e-mail, nome e senha.
+4. Verifique seu e-mail clicando no link de confirmação.
+5. Complete o registro seguindo as instruções na tela.
+
+## Importação do repositório do Github
+
+1. Conecte sua conta da Vercel com a sua conta do Github
+2. Perfil >  Configurações > Aplicativos > Configurar
+3. Escolha o repositório do coffee-shop-tia-rosa 
+
+## Deploy
+1. Importe o Projeto na plataforma da Vercel
+2. Selecione o template, neste caso Vite/React
+3. Caso queira, pode usar um domínio personalizado. Para contas de hobby a vercel garante um *.vercel.app
+4. Quando subir uma alteração no seu repositório, o deploy na vercel irá acompanhar
+
+****
