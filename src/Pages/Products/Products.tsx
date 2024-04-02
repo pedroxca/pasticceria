@@ -1,16 +1,18 @@
 import { Box, Container, Fade, Grid, Grow } from '@mui/material';
-import { Text } from '../components/Text';
-import { Title } from '../components/Title';
+import { Text } from '../../components/Text';
+import { Title } from '../../components/Title';
+import { Imagens } from './Comidas';
+
 function Products() {
   const TIMEOUT_IMAGEM = 500
   const products = [
-    { name: 'Cafe Espresso',     timeout: 1500 + TIMEOUT_IMAGEM  *1 },
-    { name: 'Cappuccino',        timeout: 1700 + TIMEOUT_IMAGEM * 2 },
-    { name: 'Pão de Queijo',     timeout: 1800 + TIMEOUT_IMAGEM * 3 },
-    { name: 'Bolo de Chocolate', timeout: 1900 + TIMEOUT_IMAGEM * 4 },
-    { name: 'Misto Quente',      timeout: 2000 + TIMEOUT_IMAGEM * 5 },
-    { name: 'Salada de Frutas',  timeout: 2100 + TIMEOUT_IMAGEM * 6 },
-    { name: 'Croissant',         timeout: 2200 + TIMEOUT_IMAGEM * 7 },
+    { imagem: Imagens[0] , name: 'Cafe Espresso',     timeout: 1500 + TIMEOUT_IMAGEM  *1 },
+    { imagem: Imagens[1] , name: 'Cappuccino',        timeout: 1700 + TIMEOUT_IMAGEM * 2 },
+    { imagem: Imagens[2] , name: 'Pão de Queijo',     timeout: 1800 + TIMEOUT_IMAGEM * 3 },
+    { imagem: Imagens[3] , name: 'Bolo de Chocolate', timeout: 1900 + TIMEOUT_IMAGEM * 4 },
+    { imagem: Imagens[4] , name: 'Misto Quente',      timeout: 2000 + TIMEOUT_IMAGEM * 5 },
+    { imagem: Imagens[5] , name: 'Salada de Frutas',  timeout: 2100 + TIMEOUT_IMAGEM * 6 },
+    { imagem: Imagens[6] , name: 'Croissant',         timeout: 2200 + TIMEOUT_IMAGEM * 7 },
   ]
 
   return (
@@ -35,7 +37,7 @@ function Products() {
                       <Container>
                         <Text>{product.name + '\n'}</Text>
                         <img
-                          src={`/src/assets/Comidas/${product.name}.jpg`}
+                          src={product.imagem}
                           style={{ maxHeight: '22vh' }}
                           loading="lazy" />
                       </Container>

@@ -5,7 +5,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import App from './App';
 import About from './Pages/About';
 import Home from './Pages/Home';
-import Products from './Pages/Products';
+import Products from './Pages/Products/Products';
 import WorkWithUs from './Pages/WorkWithUs';
 import { theme } from './Theme';
 import './index.css';

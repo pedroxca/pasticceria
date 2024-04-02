@@ -1,6 +1,7 @@
 import { Container, Fade } from '@mui/material'
 import { Text } from '../components/Text'
 import { Title } from '../components/Title'
+import TiaRosaImagem from '../assets/Tia Rosa.jpg'
 
 function About() {
   return (
@@ -15,7 +16,7 @@ function About() {
         </Text>
         <br />
         <img
-          src="/src/assets/Tia Rosa.jpg"
+          src={TiaRosaImagem}
           style={{ maxHeight: '50vh' }}
           alt="Tia Rosa" />
       </Container>
