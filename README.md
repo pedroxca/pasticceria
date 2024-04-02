@@ -12,3 +12,42 @@ Link de homologação/staging: https://pasticceria-git-hml-pedroxcas-projects.ve
 - Vite
 - Vercel
 - IA de imagem generativa
+
+
+### Passo 1: Instalação do Node.js
+
+Certifique-se de ter o Node.js instalado em seu sistema. Você pode baixá-lo e instalá-lo a partir do site oficial: https://nodejs.org/
+
+### Passo 2: Criando um Novo Projeto
+    
+Abra o terminal e navegue até o diretório onde deseja criar o projeto.
+    Execute o seguinte comando para criar um novo projeto Vite React com TypeScript:
+    
+```bash
+npm init @vitejs/app coffee-shop-tia-rosa --template react-ts
+```
+### Passo 3: Navegando para o Diretório do Projeto
+
+Após a conclusão da instalação, navegue para o diretório do projeto:
+```bash
+cd coffee-shop-tia-rosa
+```
+
+### Passo 4: Instalando Dependências
+
+Execute o seguinte comando para instalar as dependências dependencies do projeto:
+```bash
+npm install @emotion/react @emotion/styled @mui/icons-material @mui/material framer-motion localforage match-sorter react react-dom react-router-dom sort-by
+```
+Em seguida, execute o seguinte comando para instalar as dependências devDependencies do projeto:
+```bash
+npm install -D @types/react @types/react-dom @typescript-eslint/eslint-plugin @typescript-eslint/parser @vitejs/plugin-react eslint eslint-plugin-react-hooks eslint-plugin-react-refresh typescript vite
+```
+### Passo 5: Iniciando o Servidor de Desenvolvimento
+
+Agora, você pode iniciar o servidor de desenvolvimento executando o seguinte comando:
+
+### Passo 6: Visualizando o Projeto
+
+Abra seu navegador e visite http://localhost:5173 para visualizar seu projeto Vite em execução.
+
