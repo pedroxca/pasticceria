@@ -10,12 +10,15 @@ import CappucinoImagem from '../../assets/Comidas/Cappuccino.jpg'
 import CroissantImagem from '../../assets/Comidas/Croissant.jpg'
 import MistoQuenteImagem from '../../assets/Comidas/Misto Quente.jpg'
 import PaoDeQueijoImagem from '../../assets/Comidas/Pão de Queijo.jpg'
+import BoloDeChocolateImagem from '../../assets/Comidas/Bolo de Chocolate.jpg'
 import SaladaDeFrutasImagem from '../../assets/Comidas/Salada de Frutas.jpg'
 
 export const Imagens = [
   CafeEspressoImagem,
   CappucinoImagem,
-  CroissantImagem,
-  MistoQuenteImagem,
   PaoDeQueijoImagem,
-  SaladaDeFrutasImagem]
+  BoloDeChocolateImagem,
+  MistoQuenteImagem,
+  SaladaDeFrutasImagem,
+  CroissantImagem,
+]
